@@ -1,9 +1,16 @@
 ---
 output: 
   html_document: 
-    fig_caption: yes
     keep_md: yes
 ---
+output:
+html_document:
+keep_md: TRUE
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE,cache = TRUE)
+
+```
 #================================
 #Reproducible Research Project 1
 ###Dorothea L. Ugi
