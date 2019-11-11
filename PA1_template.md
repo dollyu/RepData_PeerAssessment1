@@ -1,9 +1,12 @@
 ---
 output: 
   html_document: 
-    fig_caption: yes
     keep_md: yes
 ---
+output:
+html_document:
+keep_md: TRUE
+
 #================================
 #Reproducible Research Project 1
 ###Dorothea L. Ugi
@@ -32,29 +35,6 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 library("data.table")
 library(ggplot2)
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:data.table':
-## 
-##     between, first, last
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
 ```
 
 ## Loading and preprocessing the data
